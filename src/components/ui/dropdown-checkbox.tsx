@@ -47,7 +47,7 @@ export function DropdownCheckbox({
           {options.map((option) => (
             <label
               key={option.value}
-              className="flex items-center justify-between cursor-pointer"
+              className="flex items-center justify-between cursor-pointer text-sm"
             >
               <span>{option.label}</span>
               <Checkbox
